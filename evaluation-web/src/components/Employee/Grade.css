@@ -1,0 +1,104 @@
+.grade-container {
+    padding: 16px 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+.grade-container.clickable:hover {
+    background-color: #f1f5f9;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.grade-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.grade-name-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.grade-id-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    background-color: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+
+.grade-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.grade-tag-hierarchy {
+    background-color: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+}
+
+.grade-tag-recent {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+}
+
+.grade-date {
+    font-size: 0.78rem;
+    color: #64748b;
+}
+
+.grade-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.leader-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #1e293b;
+    margin: 0;
+}
+
+.grade-score-pill {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #15803d;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    padding: 2px 8px;
+    border-radius: 9999px;
+}
+
+.employee-name {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #1e293b;
+    margin: 0;
+}
