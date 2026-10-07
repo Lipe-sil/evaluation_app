@@ -274,3 +274,19 @@ http://localhost:8000/docs
 Também está disponível a especificação OpenAPI em:
 
 http://localhost:8000/openapi.json
+
+
+## Sobre a aplicação web
+
+### Todas as avaliações
+Nesta tela, o líder pode visualizar todas as avaliações realizadas para seus subordinados diretos e indiretos, incluindo as avaliações feitas pelo próprio líder e por outros líderes da hierarquia.
+
+### Avaliações pendentes
+Nesta aba são exibidas todas as avaliações que ainda precisam ser realizadas pelo usuário logado.
+
+### Avaliações concluídas
+Nesta aba são exibidas todas as avaliações que já foram realizadas pelo usuário logado, permitindo consultar o histórico das avaliações concluídas.
+
+### Funcionários
+Nesta tela são exibidos todos os funcionários da hierarquia do usuário, juntamente com as avaliações recebidas por cada funcionário.
+
