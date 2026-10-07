@@ -1,0 +1,4 @@
+.env
+evaluation.db
+__pycache__/
+*.py[cod]

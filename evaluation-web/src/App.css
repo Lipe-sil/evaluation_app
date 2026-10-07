@@ -1,0 +1,16 @@
+html {
+    background-color: #f0fdf4;
+    scrollbar-gutter: stable;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: #f0fdf4;
+}
